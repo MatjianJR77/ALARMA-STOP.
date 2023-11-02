@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(85, 161, 22);
+    border-bottom: 2xp solid #fff;
+    padding: 20px 0;
+
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+input{
+    outline: none;
+    display: block;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer 5px;
+
+}
+
+.boton{
+    cursor: pointer;
+    padding: 10px;
+    width: 340px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 16px;
+    background-color: ;
+    color: #fff;
+}
+
+.boton:hover{
+    background-color:
+    
+}

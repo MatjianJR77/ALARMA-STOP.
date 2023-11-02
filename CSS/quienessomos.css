@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.boton1{
+    padding-top:20px ;
+    margin-right: 20px;
+}
+.funcionalidades .boton1 :hover{
+    background-color: rgba(0, 128, 255, 0.291);
+    border-radius: 10px;
+}
+.boton2{
+    padding-top:20px ;
+    margin-right: 20px;
+}
+.funcionalidades .boton2 :hover{
+    background-color: rgba(0, 128, 255, 0.291);
+    border-radius: 10px;
+}
+
+.funcionalidades{
+    margin-right: 20px;
+}
+.funcionalidades span .icon{
+    margin-right: 5px;
+}
+.hover p :hover{
+    color: rgb(0, 128, 255);
+}
+.espa{
+    margin-right: 30px;
+}
+.casa {
+    color: rgb(21, 0, 255);
+    margin-right: 30px;
+    
+}
+.our-team{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-team{
+   align-items: flex-start;
+}
+.our-team__title{
+    font-family: 'pacifico', cursive;
+    color: #DEA423;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+
+}
+.our-team__img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.our-team__txt{
+    padding: 10px;
+    text-align: justify;
+}
+
+
+@media screen and (min-width:480px) {
+    .our-team__img{
+        width:150px ;
+        height: 150px;
+    }
+    .our-team--title{
+        font-size: 1.5em;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .our-team__img{
+        width:220px ;
+        height: 220px;
+    }
+    .our-team--title{
+        font-size: 2.0em;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .our-team__img{
+        width:310px ;
+        height: 310px;
+    }
+    .our-team--title{
+        font-size: 2.5em;
+    }
+    
+}
+@media screen and (min-width:1600px) {
+    .our-team__img{
+        width:420px ;
+        height: 420px;
+    }
+    .our-team--title{
+        font-size: 2.5em;
+    }
+    
+}
